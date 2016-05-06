@@ -1,0 +1,60 @@
+body {
+  margin-top: 15px;
+}
+
+body { font-size: 16px; line-height: 1.5em; font-family: 'Quattrocento Sans', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', serif; font-weight: 700; color: #1a1a1a; }
+
+#myPhoto {
+  margin-top: 19px;
+/*  padding-left: -110px;*/
+}
+
+
+#about-me li{
+  display: inline;
+}
+
+.img-project {
+  width: 300px;
+  height: 300px;
+}
+
+.title-project {
+  text-align:  text-left;
+
+}
+
+.img-contact {
+  width: 60px;
+  height: 60px;
+}
+
+h2 + p {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.page-header {
+  margin-bottom: 70px;
+  padding-bottom: 60px;
+}
+
+
+.list-inline>li {
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+h3 ~ p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#Contact  i {
+  padding: 50px;
+}
+
+#sm-social-icon {
+  padding-top: 10px;
+}
