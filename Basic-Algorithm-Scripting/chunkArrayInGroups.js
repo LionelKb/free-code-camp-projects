@@ -14,7 +14,7 @@ function chunkArrayInGroups(arr, size) {
     arrayInGroups.push(subArray);
   }
   console.log(arrayInGroups);
-  return arr.slice(0,size);
+  return arrayInGroups;
 }
 
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
