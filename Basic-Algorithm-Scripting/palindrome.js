@@ -14,23 +14,19 @@ function palindrome(str) {
   str = str.replace(/[^a-z0-9]/gi,'');
   var i = 0;
   var strLength = str.length;
-  if (strLength % 2 == 1) {
-    while (i <= (strLength/2)) {
-      if (str[i] == str[strLength - i - 1]) {
-        i++;
-      }
-      else {
-        return false;
-      }
+  while (i <= (strLength/2)) {
+    if (str[i] == str[strLength - i - 1]) {
+      i++;
     }
-    return true;
+    else {
+      return false;
+    }
   }
-  else {
-    return false;
-  }
+  return true;
 }
 
 console.log(palindrome("race%car")); //True
+console.log(palindrome("toot")); //True
 console.log(palindrome("e1ye")); //True
 console.log(palindrome("race%car")); //True
 console.log(palindrome("race%ca")); //False
