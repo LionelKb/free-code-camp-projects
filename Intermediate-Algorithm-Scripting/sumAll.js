@@ -12,12 +12,9 @@ function sumAll(arr) {
   var max = Math.max(arr[0],arr[1]);
   var min = Math.min(arr[0],arr[1]);
   var sum = 0;
-  for (var i = min+1; i < max; i++) {
-    arr.push(i);
+  for (var value = min; value <= max; value++) {
+    sum += value;
   }
-  sum = arr.reduce(function(preValue,curValue){
-    return preValue + curValue;
-  });
   console.log(sum);
   return sum;
 }
