@@ -23,7 +23,7 @@ function translatePigLatin(str) {
       firstConsonants.push(arrOfChars[i]);
       i++;
     }
-    arrOfChars = arrOfChars.slice(firstConsonants.length)
+    arrOfChars = arrOfChars.slice(firstConsonants.length);
     arrOfChars.push(firstConsonants.join(''));
     arrOfChars.push("ay");
   }
