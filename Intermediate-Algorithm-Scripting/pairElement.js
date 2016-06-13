@@ -23,10 +23,8 @@ function pairElement(str) {
     "T": "A",
     "G": "C"
   };
-  var arrOfChars = str.split('');
-  for (var i = 0; i < arrOfChars.length; i++) {
-
-    arrOfPairs.push([arrOfChars[i],basePairs[arrOfChars[i]]]);
+  for (var i = 0; i < str.length; i++) {
+    arrOfPairs.push([str[i],basePairs[str[i]]]);
   }
   console.log(arrOfPairs);
   return arrOfPairs;
