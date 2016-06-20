@@ -1,0 +1,25 @@
+{
+  "coord":
+    {"lon":2.04,"lat":47.99},
+  "weather":
+    [{"id":500,"main":"Rain","description":"light rain","icon":"10n"}],
+  "base":
+    "cmc stations",
+  "main":
+    {"temp":288.238,"pressure":1012.81,"humidity":97,"temp_min":288.238,"temp_max":288.238,"sea_level":1034.78,"grnd_level":1012.81},
+  "wind":
+    {"speed":4.81,"deg":240.002},
+  "rain":
+    {"3h":0.69},
+  "clouds":
+    {"all":80},
+  "dt":1466454363,
+  "sys":
+    {"message":0.003,"country":"FR","sunrise":1466394739,"sunset":1466452503},
+  "id":
+    2984266,
+  "name":
+    "Rebrechien",
+  "cod":
+    200
+}
