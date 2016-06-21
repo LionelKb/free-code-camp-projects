@@ -19,7 +19,9 @@ function getNewQuote() {
 $(document).ready(function() {
   getNewQuote();
   // Generating new quote
-  $("#new-quote").on("click", getNewQuote());
+  $("#new-quote").on("click", function() {
+    getNewQuote();
+  });
 
   // Tweet the current quote
   $("#tweet-quote").on("click", function(){
